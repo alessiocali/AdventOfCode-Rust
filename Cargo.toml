@@ -1,0 +1,13 @@
+[package]
+name = "advent_of_code"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# Binaries for 2022
+[[bin]]
+name = "aoc_2022_01"
+path = "src/calendar/2022/01/main.rs"
+
+[dependencies]
