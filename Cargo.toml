@@ -8,6 +8,7 @@ edition = "2021"
 # Binaries for 2022
 [[bin]]
 name = "aoc_2022_01"
-path = "src/calendar/2022/01/main.rs"
+path = "src/calendar/2022/01_CalorieCounting/main.rs"
 
 [dependencies]
+itertools = "0.10.5"
