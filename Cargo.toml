@@ -10,5 +10,10 @@ edition = "2021"
 name = "aoc_2022_01"
 path = "src/calendar/2022/01_CalorieCounting/main.rs"
 
+[[bin]]
+name = "aoc_2022_02"
+path = "src/calendar/2022/02_RockPaperScissors/main.rs"
+
 [dependencies]
 itertools = "0.10.5"
+regex = "1.7.0"
