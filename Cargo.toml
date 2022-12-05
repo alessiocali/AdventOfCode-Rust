@@ -18,6 +18,11 @@ path = "src/calendar/2022/02_RockPaperScissors/main.rs"
 name = "aoc_2022_03"
 path = "src/calendar/2022/03_RucksackReorganization/main.rs"
 
+[[bin]]
+name = "aoc_2022_04"
+path = "src/calendar/2022/04_CampCleanup/main.rs"
+
 [dependencies]
 itertools = "0.10.5"
+lazy_static = "1.4.0"
 regex = "1.7.0"
