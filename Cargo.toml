@@ -30,6 +30,10 @@ path = "src/calendar/2022/05_SupplyStacks/main.rs"
 name = "aoc_2022_06"
 path = "src/calendar/2022/06_TuningTrouble/main.rs"
 
+[[bin]]
+name = "aoc_2022_07"
+path = "src/calendar/2022/07_NoSpaceLeftOnDevice/main.rs"
+
 [dependencies]
 itertools = "0.10.5"
 lazy_static = "1.4.0"
