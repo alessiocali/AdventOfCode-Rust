@@ -80,7 +80,7 @@ where IterType: Iterator<Item = &'a mut Tree> + ExactSizeIterator<Item = &'a mut
 }
 
 fn compute_scenic_score(forest: &mut Forest) {
-    for (row, col) in Itertools::cartesian_product(0..forest.height(), 0..forest.height()) {
+    for (row, col) in Itertools::cartesian_product(0..forest.height(), 0..forest.width()) {
         let tree_height = forest.rows[row][col].height;
         let scenic_score = 
             count_visible_trees_from(forest.left_of(row, col), tree_height)
