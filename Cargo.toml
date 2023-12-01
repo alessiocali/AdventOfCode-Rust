@@ -42,6 +42,11 @@ path = "src/calendar/2022/08_TreetopTreeHouse/main.rs"
 name = "aoc_2022_09"
 path = "src/calendar/2022/09_RopeBridge/main.rs"
 
+# Binaries for 2023
+[[bin]]
+name = "aoc_2023_01"
+path = "src/calendar/2023/01_Trebuchet/main.rs"
+
 [dependencies]
 itertools = "0.10.5"
 lazy_static = "1.4.0"
