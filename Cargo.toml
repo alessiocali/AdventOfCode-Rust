@@ -47,11 +47,16 @@ path = "src/calendar/2022/09_RopeBridge/main.rs"
 name = "aoc_2023_01"
 path = "src/calendar/2023/01_Trebuchet/main.rs"
 
+[[bin]]
+name = "aoc_2023_02"
+path = "src/calendar/2023/02_CubeConundrum/main.rs"
+
 [dependencies]
 itertools = "0.10.5"
 lazy_static = "1.4.0"
 regex = "1.7.0"
 enumset = "1.0.12"
+thiserror = "1.0.50"
 
 [profile.release-with-debug]
 inherits = "release"
