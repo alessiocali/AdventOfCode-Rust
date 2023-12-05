@@ -59,6 +59,10 @@ path = "src/calendar/2023/03_GearRatios/main.rs"
 name = "aoc_2023_04"
 path = "src/calendar/2023/04_Scratchcards/main.rs"
 
+[[bin]]
+name = "aoc_2023_05"
+path = "src/calendar/2023/05_IfYouGiveASeedAFertilizer/main.rs"
+
 [dependencies]
 itertools = "0.10.5"
 lazy_static = "1.4.0"
