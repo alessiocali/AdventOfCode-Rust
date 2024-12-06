@@ -63,12 +63,16 @@ path = "src/calendar/2023/04_Scratchcards/main.rs"
 name = "aoc_2023_05"
 path = "src/calendar/2023/05_IfYouGiveASeedAFertilizer/main.rs"
 
+[[bin]]
+name = "aoc_2024_01"
+path = "src/calendar/2024/01_HistorianHisteria/main.rs"
+
 [dependencies]
-itertools = "0.10.5"
-lazy_static = "1.4.0"
-regex = "1.7.0"
-enumset = "1.0.12"
-thiserror = "1.0.50"
+itertools = "0.13.0"
+lazy_static = "1.5.0"
+regex = "1.11.1"
+enumset = "1.1.5"
+thiserror = "2.0.4"
 
 [profile.release-with-debug]
 inherits = "release"
