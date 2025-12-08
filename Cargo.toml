@@ -71,6 +71,10 @@ path = "src/calendar/2024/01_HistorianHisteria/main.rs"
 name = "aoc_2025_01"
 path = "src/calendar/2025/01_SecretEntrance/main.rs"
 
+[[bin]]
+name = "aoc_2025_02"
+path = "src/calendar/2025/02_GiftShop/main.rs"
+
 [dependencies]
 itertools = "0.13.0"
 lazy_static = "1.5.0"
